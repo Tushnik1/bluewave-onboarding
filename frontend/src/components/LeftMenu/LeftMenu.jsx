@@ -57,11 +57,11 @@ function LeftMenu() {
             ) : (
               <ListItemButton
                 key={index}
-                className={`menu ${location.pathname.startsWith(item.route) ? "bg_dark" : ""}`}
+                className="menu"
                 onClick={() => handleNavigation(item.route)}
               >
-                <ListItemIcon className={location.pathname.startsWith(item.route) ? "active" : ""}>{item.icon}</ListItemIcon>
-                <ListItemText primary={item.text} className={location.pathname.startsWith(item.route) ? "active" : ""}/>
+                <ListItemIcon>{item.icon}</ListItemIcon>
+                <ListItemText/>
               </ListItemButton>
             )
           ))}
