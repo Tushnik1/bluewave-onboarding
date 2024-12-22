@@ -103,18 +103,3 @@
     padding-right: 0.5rem;
   }
 }
-
-
-.left-menu .bg_dark{
-  background-color: rgb(242,242,243);
-  margin: 5px 0px;
-}
-
-.left-menu .active .MuiSvgIcon-root {
-  color: black;
-  font-weight: 500;
-}
-
-.left-menu .active span{
-  font-weight: 600;
-}
