@@ -24,8 +24,12 @@ export const lightTheme = createTheme({
       styleOverrides: {
         root: {
           textTransform: "none",
-          fontSize: "14px",
+          fontSize: "13px",
           padding: "3px 9px",
+          fontStyle: "normal",
+          fontFamily: "'Inter','sans-serif'",
+          fontWeight: 400,
+          lineHeight: "20px",
         },
       },
     },
@@ -82,8 +86,12 @@ export const darkTheme = createTheme({
       styleOverrides: {
         root: {
           textTransform: "none",
-          fontSize: "14px",
+          fontSize: "13px",
           padding: "3px 9px",
+          fontStyle: "normal",
+          fontFamily: "'Inter','sans-serif'",
+          fontWeight: 400,
+          lineHeight: "20px",
         },
       },
     },
